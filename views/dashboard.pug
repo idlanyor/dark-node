@@ -1,0 +1,52 @@
+extends __dashboard
+
+block content
+    div.card.card-chart
+        div.card-body
+            h2.card-title Roynaldi | SSI202203088
+            h4.card-category Selamat datang di Sistem Informasi Akademik
+                strong.text-success MySWU
+                | STMIK Widya Utama
+                hr
+                | pilih menu dibawah untuk melanjutkan
+    div.row
+        div.col-xl-3.col-lg-6.col-md-6.col-sm-6
+            div.card.card-stats
+                a.card-header.card-header-warning.card-header-icon(href="jadwal.html")
+                    div.card-icon
+                        i.material-icons event_note
+                    h6.card-title Jadwal Kuliah & Ujian
+                    div.card-footer
+                        div.stats
+                            a.warning-link(href="jadwal.html")
+                            strong Klik Disini
+        div.col-xl-3.col-lg-6.col-md-6.col-sm-6
+            div.card.card-stats
+                a.card-header.card-header-success.card-header-icon(href="./assignment.html")
+                    div.card-icon
+                        i.material-icons diversity_3
+                    h6.card-title Assignment Kuliah & Ujian
+                    div.card-footer
+                        div.stats
+                            a.success-link(href="#pablo")
+                            strong Klik Disini
+        div.col-xl-3.col-lg-6.col-md-6.col-sm-6
+            div.card.card-stats
+                a.card-header.card-header-primary.card-header-icon(href="#pablo")
+                    div.card-icon
+                        i.material-icons fact_check
+                    h6.card-title Nilai & Hasil Ujian
+                    div.card-footer
+                        div.stats
+                            a.primary-link(href="#pablo")
+                            strong Klik Disini
+        div.col-xl-3.col-lg-6.col-md-6.col-sm-6
+            div.card.card-stats
+                a.card-header.card-header-info.card-header-icon(href="#pablo")
+                    div.card-icon
+                        i.material-icons diversity_3
+                    h6.card-title Peminatan Mata Kuliah
+                    div.card-footer
+                        div.stats
+                            a.info-link(href="#pablo")
+                            strong Klik Disini
